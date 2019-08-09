@@ -35,5 +35,11 @@ final class RomanNumeralsTests: XCTestCase {
 
     static var allTests = [
         ("test_should_return_I_whene_value_is_1", test_should_return_I_whene_value_is_1),
+        ("test_should_return_V_whene_value_is_5", test_should_return_V_whene_value_is_5),
+        ("test_should_return_X_whene_value_is_10", test_should_return_X_whene_value_is_10),
+        ("test_should_return_L_whene_value_is_50", test_should_return_L_whene_value_is_50),
+        ("test_should_return_C_whene_value_is_100", test_should_return_C_whene_value_is_100),
+        ("test_should_return_D_whene_value_is_500", test_should_return_D_whene_value_is_500),
+        ("test_should_return_M_whene_value_is_1000", test_should_return_M_whene_value_is_1000)
     ]
 }
